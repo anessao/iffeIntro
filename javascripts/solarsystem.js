@@ -1,19 +1,8 @@
 //iife notation is conventionally paschall case
 var SolarSystem = (function(){
-	var planets = ["mercury", "venus", "earth", "mars", "jupiter", "saturn", "uranus", "neptune"];
-	var numPlanetsPeopleLandedOn = 0;
 	var dwarfPlanets = ["Pluto"];
 
 	return {
-		getPlanets: function(){
-			return planets;
-		},
-		getPlanetsLandedPeopleOn: function(){
-			return numPlanetsPeopleLandedOn;
-		},
-		setPlanetsLandedPeopleOn : function(){
-			numPlanetsPeopleLandedOn++;
-		},
 		getDwarfPlanets: function (){
 			return "they are rejects";
 		},
