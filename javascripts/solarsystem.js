@@ -2,7 +2,7 @@
 var SolarSystem = (function(){
 	var planets = ["mercury", "venus", "earth", "mars", "jupiter", "saturn", "uranus", "neptune"];
 	var numPlanetsPeopleLandedOn = 0;
-	var spaceships = [];
+	
 	var stars = ["Sun", "Alpha Centauri", "Wolf 359"];
 	var dwarfPlanets = ["Pluto"];
 	var age = 0;
@@ -16,15 +16,6 @@ var SolarSystem = (function(){
 		},
 		setPlanetsLandedPeopleOn : function(){
 			numPlanetsPeopleLandedOn++;
-		},
-		getSpaceShips: function(){
-			return spaceships;
-		},
-		setSpaceShips: function(crafts){
-			spaceships.push(crafts);
-		},
-		wreckSpaceShips: function(){
-			spaceships.pop();
 		},
 		getDwarfPlanets: function (){
 			return "they are rejects";
@@ -47,9 +38,26 @@ var SolarSystem = (function(){
 	}
 })();
 
-console.log("Planets: ", SolarSystem.getPlanets());
-console.log("Planets with people: ", SolarSystem.getPlanetsLandedPeopleOn());
-SolarSystem.setSpaceShips("Red Dragon");
-SolarSystem.setSpaceShips("Apollo 11");
-SolarSystem.setSpaceShips("Voyager");
-console.log("Space Crafts ", SolarSystem.getSpaceShips());
+// console.log("Planets: ", SolarSystem.getPlanets());
+// console.log("Planets with people: ", SolarSystem.getPlanetsLandedPeopleOn());
+// SolarSystem.setSpaceShips("Red Dragon");
+// SolarSystem.setSpaceShips("Apollo 11");
+// SolarSystem.setSpaceShips("Voyager");
+// console.log("Space Crafts ", SolarSystem.getSpaceShips());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
